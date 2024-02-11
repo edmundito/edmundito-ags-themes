@@ -17,6 +17,10 @@ A blue theme inspired by the old MS-DOS programming editors like QBASIC and Borl
 
 **Recommended font:** [Modern DOS](https://www.dafont.com/modern-dos.font), Variant 8x16, Size 12
 
+![DOS EGA theme screenshot](./docs/images/dos_ega.png)
+
 ### Rosewater
 
 A dark theme inspired by the game [Rosewater](https://www.grundislav.games/Rosewater.html) by [Grundislav Games](https://grundislav.games/) featuring brown and gold colors.
+
+![Rosewater theme screenshot](./docs/images/rosewater.png)
