@@ -1,6 +1,6 @@
 # edmundito's AGS Editor themes
 
-These themes are made for the [Adventure Game Studio] editor.
+These themes are made for the [Adventure Game Studio](https://adventuregamestudio.co.uk/) editor.
 
 ## Installation
 
@@ -13,9 +13,9 @@ These themes are made for the [Adventure Game Studio] editor.
 
 ### DOS EGA
 
-A blue theme inspired by the old MS-DOS text editors, QBASIC, and Borland Turbo C++. Uses an EGA 16-color palette.
+A blue theme inspired by the old MS-DOS programming editors like QBASIC and Borland Turbo C++. Uses an EGA 16-color palette.
 
-Recommended font: [Modern DOS](https://www.dafont.com/modern-dos.font), Variant 8x16, Size 12
+**Recommended font:** [Modern DOS](https://www.dafont.com/modern-dos.font), Variant 8x16, Size 12
 
 ### Rosewater
 
