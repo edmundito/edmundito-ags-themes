@@ -1,0 +1,392 @@
+{
+  "name": "[M] DOS EGA",
+  "version": "1.0.0",
+  "background": "#AAAAAA",
+  "global": {
+    "background": "#0000AA",
+    "foreground": "#AAAAAA",
+    "pane": {
+      "background": "#0000AA"
+    },
+    "button": {
+      "background": "#AAAAAA",
+      "foreground": "#000000",
+      "flat": {
+        "style": 0,
+        "border": {
+          "size": 1,
+          "color": "#000000"
+        }
+      }
+    },
+    "box": {
+      "background": "#0000AA",
+      "foreground": "#AAAAAA"
+    },
+    "listview": {
+      "background": "#0000AA",
+      "foreground": "#AAAAAA",
+      "owner-draw": true,
+      "grid-lines": false,
+      "last-column-width": -2,
+      "draw-item": true,
+      "draw-sub-item": true,
+      "column-header": {
+        "background": "#AAAAAA",
+        "foreground": "#000000",
+        "border": "#AAAAAA"
+      }
+    },
+    "combobox": {
+      "background": "#AAAAAA",
+      "foreground": "#000000",
+      "drop-down": {
+        "background": "#AAAAAA",
+        "foreground": "#000000"
+      },
+      "drop-down-closed": {
+        "background": "#AAAAAA",
+        "foreground": "#000000"
+      },
+      "item-selected": {
+        "background": "#000000",
+        "foreground": "#AAAAAA"
+      },
+      "item-not-selected": {
+        "background": "#AAAAAA",
+        "foreground": "#000000"
+      },
+      "border": {
+        "background": "#AAAAAA"
+      },
+      "button-dropped-down": {
+        "background": "#AAAAAA",
+        "foreground": "#000000"
+      },
+      "button-not-dropped-down": {
+        "background": "#AAAAAA",
+        "foreground": "#000000"
+      }
+    },
+    "propertygrid": {
+      "background": "#0000AA",
+      "line": "#AAAAAA",
+      "category": "#0000AA",
+      "splitter": "#AAAAAA",
+      "view": {
+        "background": "#0000AA",
+        "foreground": "#AAAAAA",
+        "border": "#0000AA"
+      },
+      "help": {
+        "background": "#0000AA",
+        "foreground": "#AAAAAA",
+        "border": "#AAAAAA"
+      }
+    },
+    "text-box": {
+      "background": "#AAAAAA",
+      "foreground": "#000000",
+      "border-style": 1
+    }
+  },
+  "main-container": {
+    "dock-background": "#0000AA",
+    "background": "#AAAAAA",
+    "foreground": "#AAAAAA",
+    "skin": {
+      "auto-hide": {
+        "tab-gradient": {
+          "start": "#AAAAAA",
+          "end": "#AAAAAA",
+          "text": "#000000"
+        },
+        "dock-strip-gradient": {
+          "start": "#AAAAAA",
+          "end": "#AAAAAA"
+        }
+      },
+      "dock-pane": {
+        "document-gradient": {
+          "dock-strip-gradient": {
+            "start": "#0000AA",
+            "end": "#0000AA"
+          },
+          "active-tab-gradient": {
+            "start": "#AAAAAA",
+            "end": "#AAAAAA",
+            "text": "#0000AA"
+          },
+          "inactive-tab-gradient": {
+            "start": "#0000AA",
+            "end": "#0000AA",
+            "text": "#AAAAAA"
+          }
+        },
+        "tool-window": {
+          "active-caption-gradient": {
+            "start": "#AAAAAA",
+            "end": "#AAAAAA",
+            "text": "#0000AA"
+          },
+          "inactive-caption-gradient": {
+            "start": "#0000AA",
+            "end": "#0000AA",
+            "text": "#AAAAAA"
+          },
+          "active-tab-gradient": {
+            "start": "#AAAAAA",
+            "end": "#AAAAAA",
+            "text": "#0000AA"
+          },
+          "inactive-tab-gradient": {
+            "start": "#0000AA",
+            "end": "#0000AA",
+            "text": "#AAAAAA"
+          },
+          "dock-strip-gradient": {
+            "start": "#0000AA",
+            "end": "#0000AA"
+          }
+        }
+      }
+    }
+  },
+  "main-menu": {
+    "background": "#AAAAAA",
+    "foreground": "#000000",
+    "border": "#000000",
+    "background-dropdown": "#AAAAAA",
+    "separator": "#000000",
+    "selected": {
+      "gradient": {
+        "begin": "#00AA00",
+        "end": "#00AA00"
+      }
+    },
+    "pressed": {
+      "gradient": {
+        "begin": "#00AA00",
+        "middle": "#00AA00",
+        "end": "#00AA00"
+      }
+    },
+    "item": {
+      "border": "#00AA00",
+      "selected": "#00AA00"
+    },
+    "check": {
+      "background": "#AAAAAA",
+      "foreground": "#000000",
+      "border": "#000000",
+      "selected": "#00AA00",
+      "pressed": "#00AA00"
+    },
+    "margin": {
+      "gradient": {
+        "begin": "#AAAAAA",
+        "middle": "#AAAAAA",
+        "end": "#AAAAAA"
+      }
+    }
+  },
+  "tool-bar": {
+    "background": "#AAAAAA",
+    "border": "#AAAAAA",
+    "separator": "#000000",
+    "selected-gradient": {
+      "begin": "#00AA00",
+      "end": "#00AA00"
+    },
+    "overflow-gradient": {
+      "begin": "#AAAAAA",
+      "middle": "#AAAAAA",
+      "end": "#AAAAAA"
+    },
+    "gradient": {
+      "begin": "#AAAAAA",
+      "middle": "#AAAAAA",
+      "end": "#AAAAAA"
+    },
+    "grip": {
+      "light": "#AAAAAA",
+      "dark": "#AAAAAA"
+    }
+  },
+  "status-strip": {
+    "background": "#00AAAA",
+    "foreground": "#000000"
+  },
+  "welcome": {
+    "background": "#0000AA",
+    "foreground": "#AAAAAA",
+    "panel1": {
+      "background": "#0000AA",
+      "foreground": "#AAAAAA"
+    },
+    "panel2": {
+      "background": "#AAAAAA",
+      "foreground": "#000000",
+      "link": "#AA0000"
+    },
+    "pnlTipOfTheDay": {
+      "background": "#AAAAAA",
+      "foreground": "#000000",
+      "link": "#AA0000"
+    },
+    "pnlRight": {
+      "background": "#AAAAAA",
+      "foreground": "#000000",
+      "link": "#AA0000"
+    }
+  },
+  "project-panel": {
+    "background": "#0000AA",
+    "project-tree": {
+      "background": "#0000AA",
+      "foreground": "#AAAAAA"
+    }
+  },
+  "sprite-selector": {
+    "background": "#0000AA",
+    "foreground": "#AAAAAA",
+    "list": {
+      "background": "#0000AA",
+      "foreground": "#AAAAAA"
+    },
+    "tree": {
+      "background": "#0000AA",
+      "foreground": "#AAAAAA",
+      "line": "#AAAAAA"
+    }
+  },
+  "log-panel": {
+    "background": "#0000AA",
+    "foreground": "#AAAAAA",
+    "splitter": "#AAAAAA"
+  },
+  "script-editor": {
+    "background": "#0000AA",
+    "foreground": "#AAAAAA",
+    "text-editor": {
+      "global-default": {
+        "background": "#0000AA",
+        "foreground": "#AAAAAA"
+      },
+      "default": {
+        "background": "#0000AA",
+        "foreground": "#AAAAAA"
+      },
+      "word-1": {
+        "background": "#0000AA",
+        "foreground": "#00AAAA"
+      },
+      "word-2": {
+        "background": "#0000AA",
+        "foreground": "#55FF55"
+      },
+      "identifier": {
+        "background": "#0000AA",
+        "foreground": "#AAAAAA"
+      },
+      "comment": {
+        "background": "#0000AA",
+        "foreground": "#5555FF"
+      },
+      "comment-line": {
+        "background": "#0000AA",
+        "foreground": "#5555FF"
+      },
+      "comment-doc": {
+        "background": "#0000AA",
+        "foreground": "#5555FF"
+      },
+      "comment-line-doc": {
+        "background": "#0000AA",
+        "foreground": "#5555FF"
+      },
+      "comment-doc-keyword": {
+        "background": "#0000AA",
+        "foreground": "#55FFFF"
+      },
+      "comment-doc-keyword-error": {
+        "background": "#0000AA",
+        "foreground": "#AA0000"
+      },
+      "number": {
+        "background": "#0000AA",
+        "foreground": "#FF55FF"
+      },
+      "regex": {
+        "background": "#0000AA",
+        "foreground": "#F55363"
+      },
+      "string": {
+        "background": "#0000AA",
+        "foreground": "#FFFF55"
+      },
+      "string-eol": {
+        "background": "#0000AA",
+        "foreground": "#FFFF55"
+      },
+      "operator": {
+        "background": "#0000AA",
+        "foreground": "#FFFFFF"
+      },
+      "preprocessor": {
+        "background": "#00AAAA",
+        "foreground": "#0000AA"
+      },
+      "line-number": {
+        "background": "#0000AA",
+        "foreground": "#AAAAAA"
+      },
+      "indent-guide": {
+        "background": "#0000AA",
+        "foreground": "#5555FF"
+      },
+      "fold-margin": "#0000AA",
+      "fold-margin-hi": "#0000AA",
+      "marknum-folder": {
+        "background": "#5555FF",
+        "foreground": "#0000AA"
+      },
+      "marknum-folder-end": {
+        "background": "#5555FF",
+        "foreground": "#0000AA"
+      },
+      "marknum-folder-open": {
+        "background": "#5555FF",
+        "foreground": "#0000AA"
+      },
+      "marknum-folder-open-mid": {
+        "background": "#5555FF",
+        "foreground": "#0000AA"
+      },
+      "marknum-folder-mid-tail": "#5555FF",
+      "marknum-folder-sub": "#5555FF",
+      "marknum-folder-tail": "#5555FF",
+      "selected": {
+        "background": "#AAAAAA",
+        "foreground": "#0000AA"
+      },
+      "caret": "#FF5555",
+      "marker-breakpoint": {
+        "background": "#AA0000",
+        "foreground": "#000000"
+      },
+      "marker-breakpoint2": {
+        "background": "#d42b2c",
+        "foreground": "#6a3838"
+      },
+      "current-statement": {
+        "background": "red",
+        "foreground": "blue"
+      },
+      "current-statement2": {
+        "background": "red",
+        "foreground": "blue"
+      }
+    }
+  }
+}
